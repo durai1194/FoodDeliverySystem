@@ -15,7 +15,6 @@ import com.altimetrik.fooddeliverysystem.model.FilterHotelRequest;
 import com.altimetrik.fooddeliverysystem.model.FilterHotelResponse;
 import com.altimetrik.fooddeliverysystem.model.FoodItemRequest;
 import com.altimetrik.fooddeliverysystem.model.FoodItemResponse;
-import com.altimetrik.fooddeliverysystem.model.FoodItems;
 import com.altimetrik.fooddeliverysystem.model.GetOrderDetailsRequest;
 import com.altimetrik.fooddeliverysystem.model.OrderDetailsResponse;
 import com.altimetrik.fooddeliverysystem.model.OrderFoodItemRequest;
