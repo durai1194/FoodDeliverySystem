@@ -52,7 +52,7 @@ public class FdsController {
 	}
 	
 	@ApiOperation(value = "FilterHotels", notes = "Requires Rating and filter by", response = FilterHotelResponse.class)
-	@ApiResponses({@ApiResponse(code = 200, response = FilterHotelResponse.class, message = "Order details retrieved successfully") })
+	@ApiResponses({@ApiResponse(code = 200, response = FilterHotelResponse.class, message = "Hotel details retrieved successfully") })
 	@PostMapping("/filterHotels")
 	public  @ResponseBody FilterHotelResponse filterHotels(@RequestBody FilterHotelRequest filterHotelRequest){
 		return  fdsService.filterHotels(filterHotelRequest);
